@@ -39,7 +39,7 @@ DataMapper.setup(:default, ENV['DATABASE_URL'] || "sqlite3://#{Dir.pwd}/rabbits.
     @rabbit = Rabbit.get(params[:id])
     if @rabbit.update(params[:rabbit])
       status 201
-      redirect '/rabbits' + params[:id]
+      redirect '/rabbits/' + params[:id]
     else
       status 400
       haml :edit
