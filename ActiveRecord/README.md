@@ -1,0 +1,2 @@
+Restful rabbits is an exercise in RESTful web application development. Found here: http://ididitmyway.herokuapp.com/past/2010/9/21/restful_rabbits/
+#This is the version using the ActiveRecord ORM http://api.rubyonrails.org/classes/ActiveRecord/Base.html
